@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TouchBehaviourReproductionApp.NavigationPage"
+             Title="NavigationPage">
+    <StackLayout>
+        <Label Text="Navigation page"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+
+        <Label Text="Click the back button and check if the background color of the sample component is broken. If it is not broken, repeat this process multiple times. Make sure you're testing on an iOS 18 device."/>
+        <Button Text="Back Button" Clicked="Button_Clicked" />        
+
+    </StackLayout>
+</ContentPage>
